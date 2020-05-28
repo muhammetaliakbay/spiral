@@ -1,0 +1,15 @@
+{
+  "compileOnSave": true,
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "module": "CommonJS",
+    "declaration": true,
+    "inlineSourceMap": true,
+    "strict": true,
+    "target": "ESNext"
+  }
+}
